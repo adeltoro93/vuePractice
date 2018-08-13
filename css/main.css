@@ -1,0 +1,42 @@
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to {
+  opacity: 1;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: 0.5s ease;
+}
+body {
+  text-align: center;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+img {
+  height: 300px;
+  object-fit: contain;
+}
+a {
+  margin: 30px;
+  color: #c6ffdd;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 2px 	#4169E1;
+}
+p, h1 {
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+  color: #1565c0;
+}
+div#content {
+  padding-top: 65px;
+}
+a:hover {
+  box-shadow: 1px 2px 	#4169E1;
+  color: #660000;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
